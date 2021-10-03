@@ -1254,7 +1254,16 @@ svg.notion-page-icon {
 .notion-property-checkbox-checked {
   width: 16px;
   height: 16px;
+  svg {
+    width: 16px;
+    height: 16px;
+  }
   background: var(--select-color-0);
+}
+
+notion-property-checkbox-checked svg {
+  width: 16px;
+  height: 16px;
 }
 
 .notion-property-checkbox-checked svg {
